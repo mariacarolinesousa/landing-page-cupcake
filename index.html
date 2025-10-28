@@ -3,17 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Landing page criada para uma loja fictícia">
-    <meta name="keywords" content="Landing Page, Portfólio, GitHub, fictícia, programação">
+    <meta name="description" content="página para uma loja de cupcakes fictícia para o meu portfólio">
     <meta name="author" content="Maria Caroline Sousa">
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta name="robots" content="index, follow">
-    <link rel="stylesheet" href="/css/style.css">
+    <meta name="keywords" content="Loja de cupcakes, freelancer, programming, github">
+    <!--Normalize-->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!--css personalizado-->
+    <link rel="stylesheet" href="css/estilo.css">
     <title>S&M Cupcakes</title>
 </head>
 <body>
-    <header>
-        <div> Sweet & Modern Cupcakes </div>
-    </header>
+    <!--Cabeçalho-->
+    <header></header>
+
+    <main>
+    <div id="titulo">
+        <h2 id="letreiro">Sweet & Modern Cupcakes</h2>
+    </div>
+    <!--Fim do Cabeçalho-->
+
+    <!--Início dos textos iniciais-->
+    <section id="primeira">
+        <h1>Cupcakes que encantam no primeiro olhar</h1>
+        <p>Feitos com Ingredientes Frescos e Muito Carinho</p>
+        <button>Faça o Seu Pedido</button>
+        
+    </section>
+    <!--Fim dos textos iniciais-->
+    
+    <!--Início da Página de produtos-->
+    <section id="produtos">
+
+        <div id="container-doces">
+            <h2>Nossos Sabores</h2>
+
+            <div class="cupcakes">
+                <h2>Red Velvet</h2>
+                <img src="/img/red velvet.webp" alt="Cupcake Red Velvet" loading="lazy">
+                <p>Massa Aveludada de Cacau</p>
+            </div>
+
+            <div class="cupcakes">
+                <h2>Chocolate</h2>
+                <img src="/img/chocolate.webp" alt="Bolo de Chocolate" loading="lazy">
+                <p>Com Cobertura de Ganache</p>
+            </div>
+
+            <div class="cupcakes">
+                <h2>Morango</h2>
+                <img src="/img/morango.webp" alt="Bolo de Morango" loading="lazy">
+                <p>Com creme de Morango</p>
+            </div>
+
+            <div class="cupcakes">
+                <h2>Baunilha</h2>
+                <img src="/img/baunilha.webp" alt="Bolo de Baunilha" loading="lazy">
+                <p>Clássico e delicado</p>
+            </div>
+
+            <div class="cupcakes">
+                <h2>Amendoim</h2>
+                <img src="/img/caramelo-salgado.webp" alt="Caramelo com Amendoim" loading="lazy">
+                <p>Recheado com Caramelo</p>
+            </div>
+
+            <div class="cupcakes">
+                <h2>Limão</h2>
+                <img src="/img/limão.webp" alt="Cupcake de Limão" loading="lazy">
+                <p>Recheado com Marshmellows</p>
+            </div>
+
+        </div>
+        
+    </section> <!--Fim da Página de Produtos-->
+
+    <!--Início da Página de Depoimentos-->
+
+    <section id="depoimentos">
+
+        <div class="caixas-pessoas">
+            <img src="/img/ana.webp" alt="Depoimento Ana Sousa" loading="lazy">
+            <h2>Ana Sousa</h2>
+            <p>Os Melhores Cupcakes que Eu já Provei!! <br>
+            Altamente Recomendados
+            </p>
+        </div>
+
+        <div class="caixas-pessoas">
+            <img src="/img/Carlos.webp" alt="Depoimento Carlos Pereira" loading="lazy">
+            <h2>Carlos Pereira</h2>
+            <p>Sabor e Apresentação Impecáveis!! <br>
+            Voltarei a Pedir, Com Certeza.
+            </p>
+        </div>
+
+        <div class="caixas-pessoas">
+            <img src="/img/Marta.webp" alt="Depoimento Marta Lima" loading="lazy">
+            <h2>Marta Lima</h2>
+            <p>Maravilhosa Experiência do Início ao Fim <br>
+            Simplesmente Perfeitos</p>
+        </div>
+    </section> <!--Fim dos Depoimentos-->
+   
+    <section id="chamada-acao" > <!--Início da Chamada para Ação-->
+        
+        <h2>Promoção do Mês<br>
+        Compre 6 e leve 7</h2>
+
+    </section> <!--Fim da Chamada para Ação-->
+
+        <footer>
+            <h2>Sweet & Modern Cupcakes</h2>
+            <p>Rua das Flores, 123, São Paulo - SP </p>
+            <p>Segunda a Sábado: 07 às 19hrs</p>
+        </footer>
+
+    </main>
 </body>
 </html>
