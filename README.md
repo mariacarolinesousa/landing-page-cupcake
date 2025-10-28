@@ -1,4 +1,4 @@
-# landing-page-cupcake
+# landing-page-cupcake (EM ANDAMENTO)
 Landing page sobre uma loja de cupcakes fictícia 
 # 🍰 Landing Page Cupcake
 
