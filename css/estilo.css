@@ -32,7 +32,6 @@ header {
     left: 50%;
     transform: translateX(-50%);
     z-index: 10;
-    
 }
 
 #letreiro {
@@ -94,10 +93,10 @@ section p {
 button {
     background-color: #F4C2C2;
     color: #2c2828;
-    padding: 15px 15px 15px 15px;
+    padding: 12px 20px;
     border: none;
-    font-size: 1.5rem;
-    border-radius: 15px;
+    font-size: 1.2rem;
+    border-radius: 10px;
     cursor: pointer;
     transition: all 0.3s;
 }
@@ -247,4 +246,62 @@ footer > h2 {
 footer > p {
     color: #665b36;
     text-align: center;
+}
+
+/*Dispositivos Móveis*/
+@media screen and (min-width: 320px) and  (max-width: 480px) {
+    header {
+     width: 100%; 
+     height: 30px; 
+     background: #C69C6D;
+    } 
+    
+    #titulo {
+     width: 16em;
+     height: 3.7em; 
+     background: #C69C6D; 
+     border-radius: 15px; 
+     text-align: center; 
+     margin: 0 auto; 
+     position: absolute; 
+     top: 0.06em; 
+     transform: translateX(-50%);
+     z-index: 10; 
+    } 
+    
+    #letreiro {
+     color: #665b36;
+     font-size: 1.5em; 
+    } 
+    
+    /*Textos da primeira seção*/ 
+    section h1 {
+        color: #fff;
+        font-size: 2em;
+        margin: 0 0 20px 0;
+        
+    }
+
+}
+
+/*Ipads, Tablets*/
+@media screen and (min-width: 481px) and  (max-width: 678px) {
+
+ 
+}
+/*Telas Pequenas, Laptops*/
+@media screen and (min-width: 768px) and  (max-width:1024px ) {
+    
+
+
+}
+/*Desktops, Telas Grandes*/
+@media screen and (min-width: 1025px) and  (max-width: 1200px) {
+    
+    
+}
+
+/*Telas muito Grandes, Tvs*/
+@media screen and (min-width:1201px) {
+    
 }
