@@ -1,25 +1,25 @@
 # landing-page-cupcake (EM ANDAMENTO)
 Landing page sobre uma loja de cupcakes fictícia 
-# 🍰 Landing Page Cupcake
+# Landing Page Cupcake
 
 Uma landing page fictícia para uma loja de cupcakes.  
 Projeto desenvolvido para praticar HTML, CSS e JavaScript, com foco em design responsivo e boas práticas.
 
 ---
 
-## 🚀 Tecnologias utilizadas
+## Tecnologias utilizadas
 - HTML5  
 - CSS3  
 - JavaScript  
 
 ---
 
-## 📸 Prévia
+## Prévia
 ![Screenshot da Landing Page](link-da-imagem-ou-gif-aqui)
 
 ---
 
-## 🎯 Funcionalidades
+## Funcionalidades
 - Layout moderno e responsivo  
 - Seções de apresentação, produtos e contato  
 - Estilo personalizado para destacar a identidade da marca fictícia
@@ -28,7 +28,7 @@ Projeto desenvolvido para praticar HTML, CSS e JavaScript, com foco em design re
 
 ---
 
-## 🛠 Como rodar o projeto localmente
+## Como rodar o projeto localmente
 1. Clone este repositório:  
    ```bash
    git clone https://github.com/mariacarolinesousa/landing-page-cupcake.git
