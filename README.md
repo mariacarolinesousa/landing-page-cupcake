@@ -15,7 +15,7 @@ Projeto desenvolvido para praticar HTML, CSS e JavaScript, com foco em design re
 ---
 
 ## Prévia
-![Clique no Link para ver](https://landing-page-cupcake.vercel.app/)
+https://landing-page-cupcake.vercel.app/
 
 ---
 
