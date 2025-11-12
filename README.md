@@ -1,6 +1,6 @@
 # landing-page-cupcake (EM ANDAMENTO)
 Landing page sobre uma loja de cupcakes fictícia 
-# Landing Page Cupcake
+
 
 Uma landing page fictícia para uma loja de cupcakes.  
 Projeto desenvolvido para praticar HTML, CSS e JavaScript, com foco em design responsivo e boas práticas.
@@ -15,7 +15,7 @@ Projeto desenvolvido para praticar HTML, CSS e JavaScript, com foco em design re
 ---
 
 ## Prévia
-![Screenshot da Landing Page](link-da-imagem-ou-gif-aqui)
+![Clique no Link para ver](https://landing-page-cupcake.vercel.app/)
 
 ---
 
@@ -32,3 +32,5 @@ Projeto desenvolvido para praticar HTML, CSS e JavaScript, com foco em design re
 1. Clone este repositório:  
    ```bash
    git clone https://github.com/mariacarolinesousa/landing-page-cupcake.git
+   ````
+   ### Feito por: Maria Caroline Sousa
