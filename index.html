@@ -31,7 +31,25 @@
         
     </section>
     <!--Fim dos textos iniciais-->
-    
+
+    <!--Início do Modal -->
+
+    <div id="modal">
+        <div id="modal-conteudo">
+            <span id="fechar">&times;</span>
+            <h2>Faça o seu pedido</h2>
+            <form>
+                <input type="text" name="nome" placeholder="Seu nome" required>
+                <input type="number" name="telefone" placeholder="Seu Telefone ou Whatsapp" required>
+                <textarea name="observacoes" placeholder="Escreva seu pedido: sabores, quantidades e observações especiais"></textarea>
+
+                <button type="submit">Enviar Pedido</button>
+            </form>
+        </div>
+    </div>
+
+    <!--Fim do Modal-->
+
     <!--Início da Página de produtos-->
     <section id="produtos">
 
@@ -120,5 +138,6 @@
         </footer>
 
     </main>
+    <script src="script/script.js"></script>
 </body>
 </html>

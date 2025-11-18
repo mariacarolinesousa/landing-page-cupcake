@@ -19,6 +19,50 @@ header {
     background: #C69C6D;
 }
 
+ /*Modal*/
+    #modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        z-index: 1000;
+    }
+
+    #modal-conteudo {
+        background: white;
+        width: 350px;
+        margin: 100px auto;
+        padding: 20px;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    #fechar {
+        position: absolute;
+        right: 15px;
+        top: 10px;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    input, textarea {
+        width: 95%;
+        padding: 10px;
+        margin: 6px 0;
+        border-radius: 6px;
+        border: 2px solid #ccc;
+    }
+
+    textarea {
+        height:70px;
+        resize: none;
+    }
+
+    
+
 /*Título*/
 #titulo {
     width: 460px;
@@ -281,6 +325,8 @@ footer > p {
         margin: 0 0 20px 0;
         
     }
+
+   
 
 }
 
