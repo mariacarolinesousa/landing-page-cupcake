@@ -17,3 +17,4 @@ modal.addEventListener("click", (e) => {
         modal.style.display = "none";
     }
 });
+
