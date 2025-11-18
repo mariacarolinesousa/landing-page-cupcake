@@ -18,3 +18,23 @@ modal.addEventListener("click", (e) => {
     }
 });
 
+//conectando o modal ao backend
+document.getElementById("formPedido").addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    const dados = {
+        nome: e.target.nome.value,
+        telefone: e.target.telefone.value,
+        pedido: e.target.pedido.value
+    };
+
+    const req = await fetch("http://localhost:3000/pedido", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(dados)
+    });
+
+    const res = await req.json();
+
+    alert(res.message);
+});
