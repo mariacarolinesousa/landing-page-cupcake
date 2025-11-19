@@ -1,4 +1,4 @@
-# landing-page-cupcake (EM ANDAMENTO)
+# landing-page-cupcake 
 Landing page sobre uma loja de cupcakes fictícia 
 
 
@@ -8,13 +8,16 @@ Projeto desenvolvido para praticar HTML, CSS e JavaScript, com foco em design re
 ---
 
 ## Tecnologias utilizadas
+Front-end:
 - HTML5  
 - CSS3  
-- JavaScript  
+Backend:
+- Javascript
+- MongoDB
 
 ---
 
-## Prévia
+## Veja o site funcionando
 https://landing-page-cupcake.vercel.app/
 
 ---
@@ -25,6 +28,8 @@ https://landing-page-cupcake.vercel.app/
 - Estilo personalizado para destacar a identidade da marca fictícia
 - Otimizada para SEO
 - Com foco em Usabilidade, Performance e Layout adaptável
+- Backend em javascript
+- Banco de dados em MongoDB
 
 ---
 
