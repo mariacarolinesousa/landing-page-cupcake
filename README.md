@@ -10,7 +10,7 @@ Projeto desenvolvido para praticar HTML, CSS e JavaScript, com foco em design re
 ## Tecnologias utilizadas
 Front-end:
 - HTML5  
-- CSS3  
+- CSS3
 Backend:
 - Javascript
 - MongoDB
